@@ -1,0 +1,155 @@
+/*body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: ff-clan-web-pro, Helvetica Neue, Helvetica, sans-serif !important;
+  font-size: 12px;
+  line-height: 1.833;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #111;
+  overflow: auto;
+}
+
+a, a:visited {
+  color: #08f;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+b{
+  font-weight: bold;
+}
+
+p{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.layer-controls{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 12px;
+  width: 200px;
+  background: rgba(40,40,40,0.8);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.options-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 370px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  padding: 12px 24px;
+  margin: 20px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #6b6b76;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.options-panel .legend{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.options-panel p{
+  margin-bottom: 16px;
+}
+
+.options-panel h3{
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.options_panel p{
+  margin-bottom: 16px;
+}
+
+hr {
+  margin: 24px 0;
+  border-color: #888;
+  opacity: 0.3;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 12px;
+}
+
+li {
+  margin: 9px;
+  list-style-type: square;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  font-size: 12px;
+}
+
+input {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.stat{
+  text-transform: uppercase;
+  font-size: .833em
+}
+
+.stat b{
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.layout{
+  display: table;
+  width: 100%;
+}
+
+.layout>*{
+  display: table-cell !important;
+}
+
+.layout .col-1-2{
+  width: 50%;
+}
+
+.layout .text-right{
+  text-align: right !important;
+}
+
+.tooltip {
+  position: absolute;
+  margin: 8px;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  max-width: 300px;
+  font-size: 14px;
+  z-index: 9;
+  pointer-events: none;
+}

@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start-local": "webpack-dev-server --env.local --progress --hot --port 3032 --open",
+    "start": "webpack-dev-server --progress --hot --port 3032 --open"
+  },
+  "dependencies": {
+    "d3-request": "^1.0.5",
+    "d3-scale": "^1.0.6",
+    "deck.gl": "^4.1.0",
+    "luma.gl": "^4.0.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-map-gl": "^3.0.0",
+    "react-player-controls": "^0.5.17",
+    "react-vis": "^1.7.2",
+    "react-player-controls"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "csv-loader": "^2.1.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}

@@ -54,7 +54,7 @@ npm install
 npm start
 ```
 
-Executando `npm start` na pasta do projeto e abrindo [http://localhost:3000](http://localhost:3000) no browser, teremos a seguinte visualização usando a `HexagonLayer`:
+Executando `npm start` na pasta do projeto e abrindo [http://localhost:3032](http://localhost:3032) no browser, teremos a seguinte visualização usando a `HexagonLayer`:
 
 ![](Figuras/resultado_1.png)
 
